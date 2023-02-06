@@ -7,23 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2348DBF2988FF06000E06CB /* PKHUD in Frameworks */ = {isa = PBXBuildFile; productRef = A2348DBE2988FF06000E06CB /* PKHUD */; };
+		A2348DC229890FB4000E06CB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2348DC129890FB4000E06CB /* User.swift */; };
+		A2348DC4298CE009000E06CB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2348DC3298CE009000E06CB /* ProfileViewController.swift */; };
+		A2348DC7298CE24C000E06CB /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2348DC6298CE24C000E06CB /* ProfileImageView.swift */; };
+		A2348DC9298CE317000E06CB /* ProfileLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2348DC8298CE317000E06CB /* ProfileLabel.swift */; };
+		A2348DCB298D11A1000E06CB /* ProfileTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2348DCA298D11A1000E06CB /* ProfileTextField.swift */; };
+		A2348DCE2990C481000E06CB /* InfoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2348DCD2990C481000E06CB /* InfoCollectionViewCell.swift */; };
+		A2348DD12990E954000E06CB /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = A2348DD02990E954000E06CB /* SDWebImage */; };
+		A28162C52987721800A4F3CF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28162C42987721800A4F3CF /* CardView.swift */; };
+		A28162C729879E4100A4F3CF /* UIColor-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28162C629879E4100A4F3CF /* UIColor-Extention.swift */; };
+		A28162C92987A9B300A4F3CF /* CardinfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28162C82987A9B300A4F3CF /* CardinfoLabel.swift */; };
+		A28162CB2987AD0000A4F3CF /* UIButton-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28162CA2987AD0000A4F3CF /* UIButton-Extention.swift */; };
+		A28162CE2987ADAE00A4F3CF /* CardImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28162CD2987ADAE00A4F3CF /* CardImageView.swift */; };
+		A28162D02987C27D00A4F3CF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A28162CF2987C27D00A4F3CF /* GoogleService-Info.plist */; };
+		A28162D52987C76700A4F3CF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28162D42987C76700A4F3CF /* RegisterViewController.swift */; };
+		A28162D92987D00200A4F3CF /* RegisterTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28162D82987D00200A4F3CF /* RegisterTextField.swift */; };
+		A28162DB298809B400A4F3CF /* RegisterTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28162DA298809B400A4F3CF /* RegisterTitleLabel.swift */; };
+		A28162DD29880D3A00A4F3CF /* RegisterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28162DC29880D3A00A4F3CF /* RegisterButton.swift */; };
+		A28162E02988157600A4F3CF /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A28162DF2988157600A4F3CF /* FirebaseAnalytics */; };
+		A28162E22988157600A4F3CF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A28162E12988157600A4F3CF /* FirebaseAuth */; };
+		A28162E42988157600A4F3CF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A28162E32988157600A4F3CF /* FirebaseFirestore */; };
+		A28162E62988157600A4F3CF /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A28162E52988157600A4F3CF /* FirebaseRemoteConfigSwift */; };
+		A28162E82988157600A4F3CF /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A28162E72988157600A4F3CF /* FirebaseStorage */; };
+		A288F4D0298268DB008E7062 /* UIimage-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A288F4CF298268DB008E7062 /* UIimage-Extention.swift */; };
+		A288F4D2298276FA008E7062 /* TopControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A288F4D1298276FA008E7062 /* TopControllerView.swift */; };
+		A288F4D529827E48008E7062 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = A288F4D429827E48008E7062 /* RxCocoa */; };
+		A288F4D729827E48008E7062 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = A288F4D629827E48008E7062 /* RxRelay */; };
+		A288F4D929827E48008E7062 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A288F4D829827E48008E7062 /* RxSwift */; };
+		A288F4DC298286D3008E7062 /* UIView-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A288F4DB298286D3008E7062 /* UIView-Extention.swift */; };
+		A28E34842988BAC70050BA1A /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28E34832988BAC70050BA1A /* RegisterViewModel.swift */; };
+		A2D5B27B2988E498000611BE /* Firebase-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D5B27A2988E498000611BE /* Firebase-Extention.swift */; };
+		A2D5B27D2988EC84000611BE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D5B27C2988EC84000611BE /* LoginViewController.swift */; };
 		A2F0E8142982528900678848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0E8132982528900678848 /* AppDelegate.swift */; };
 		A2F0E8162982528900678848 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0E8152982528900678848 /* SceneDelegate.swift */; };
-		A2F0E8182982528900678848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0E8172982528900678848 /* ViewController.swift */; };
-		A2F0E81B2982528900678848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F0E8192982528900678848 /* Main.storyboard */; };
+		A2F0E8182982528900678848 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0E8172982528900678848 /* HomeController.swift */; };
 		A2F0E81D2982528A00678848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F0E81C2982528A00678848 /* Assets.xcassets */; };
 		A2F0E8202982528A00678848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F0E81E2982528A00678848 /* LaunchScreen.storyboard */; };
+		A2F0E82A29825A3E00678848 /* BottomControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0E82929825A3E00678848 /* BottomControllerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2348DC129890FB4000E06CB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A2348DC3298CE009000E06CB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A2348DC6298CE24C000E06CB /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
+		A2348DC8298CE317000E06CB /* ProfileLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileLabel.swift; sourceTree = "<group>"; };
+		A2348DCA298D11A1000E06CB /* ProfileTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTextField.swift; sourceTree = "<group>"; };
+		A2348DCD2990C481000E06CB /* InfoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCollectionViewCell.swift; sourceTree = "<group>"; };
+		A28162C42987721800A4F3CF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A28162C629879E4100A4F3CF /* UIColor-Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-Extention.swift"; sourceTree = "<group>"; };
+		A28162C82987A9B300A4F3CF /* CardinfoLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardinfoLabel.swift; sourceTree = "<group>"; };
+		A28162CA2987AD0000A4F3CF /* UIButton-Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton-Extention.swift"; sourceTree = "<group>"; };
+		A28162CD2987ADAE00A4F3CF /* CardImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageView.swift; sourceTree = "<group>"; };
+		A28162CF2987C27D00A4F3CF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A28162D42987C76700A4F3CF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A28162D82987D00200A4F3CF /* RegisterTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTextField.swift; sourceTree = "<group>"; };
+		A28162DA298809B400A4F3CF /* RegisterTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTitleLabel.swift; sourceTree = "<group>"; };
+		A28162DC29880D3A00A4F3CF /* RegisterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterButton.swift; sourceTree = "<group>"; };
+		A288F4CF298268DB008E7062 /* UIimage-Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIimage-Extention.swift"; sourceTree = "<group>"; };
+		A288F4D1298276FA008E7062 /* TopControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopControllerView.swift; sourceTree = "<group>"; };
+		A288F4DB298286D3008E7062 /* UIView-Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView-Extention.swift"; sourceTree = "<group>"; };
+		A28E34832988BAC70050BA1A /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		A2D5B27A2988E498000611BE /* Firebase-Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firebase-Extention.swift"; sourceTree = "<group>"; };
+		A2D5B27C2988EC84000611BE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A2F0E8102982528900678848 /* MatchingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F0E8132982528900678848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2F0E8152982528900678848 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A2F0E8172982528900678848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A2F0E81A2982528900678848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2F0E8172982528900678848 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		A2F0E81C2982528A00678848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2F0E81F2982528A00678848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2F0E8212982528A00678848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2F0E82929825A3E00678848 /* BottomControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomControllerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +85,90 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2348DBF2988FF06000E06CB /* PKHUD in Frameworks */,
+				A288F4D929827E48008E7062 /* RxSwift in Frameworks */,
+				A28162E22988157600A4F3CF /* FirebaseAuth in Frameworks */,
+				A288F4D729827E48008E7062 /* RxRelay in Frameworks */,
+				A2348DD12990E954000E06CB /* SDWebImage in Frameworks */,
+				A28162E62988157600A4F3CF /* FirebaseRemoteConfigSwift in Frameworks */,
+				A28162E02988157600A4F3CF /* FirebaseAnalytics in Frameworks */,
+				A28162E82988157600A4F3CF /* FirebaseStorage in Frameworks */,
+				A288F4D529827E48008E7062 /* RxCocoa in Frameworks */,
+				A28162E42988157600A4F3CF /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2348DC029890F9B000E06CB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A2348DC129890FB4000E06CB /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A2348DC5298CE22D000E06CB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A2348DC6298CE24C000E06CB /* ProfileImageView.swift */,
+				A2348DC8298CE317000E06CB /* ProfileLabel.swift */,
+				A2348DCA298D11A1000E06CB /* ProfileTextField.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A2348DCC2990C459000E06CB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A2348DCD2990C481000E06CB /* InfoCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A28162D62987CFE100A4F3CF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A2F0E82929825A3E00678848 /* BottomControllerView.swift */,
+				A28162C82987A9B300A4F3CF /* CardinfoLabel.swift */,
+				A288F4D1298276FA008E7062 /* TopControllerView.swift */,
+				A28162C42987721800A4F3CF /* CardView.swift */,
+				A28162CD2987ADAE00A4F3CF /* CardImageView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A28162D72987CFF000A4F3CF /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				A28162D82987D00200A4F3CF /* RegisterTextField.swift */,
+				A28162DA298809B400A4F3CF /* RegisterTitleLabel.swift */,
+				A28162DC29880D3A00A4F3CF /* RegisterButton.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		A288F4DA298286B3008E7062 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				A288F4CF298268DB008E7062 /* UIimage-Extention.swift */,
+				A288F4DB298286D3008E7062 /* UIView-Extention.swift */,
+				A28162C629879E4100A4F3CF /* UIColor-Extention.swift */,
+				A28162CA2987AD0000A4F3CF /* UIButton-Extention.swift */,
+				A2D5B27A2988E498000611BE /* Firebase-Extention.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		A28E34822988BAA90050BA1A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A28E34832988BAC70050BA1A /* RegisterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		A2F0E8072982528900678848 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +188,41 @@
 		A2F0E8122982528900678848 /* MatchingApp */ = {
 			isa = PBXGroup;
 			children = (
+				A2348DCC2990C459000E06CB /* Cells */,
+				A2348DC029890F9B000E06CB /* Models */,
+				A28E34822988BAA90050BA1A /* ViewModel */,
+				A28162CF2987C27D00A4F3CF /* GoogleService-Info.plist */,
+				A2F0E82829825A2A00678848 /* Views */,
+				A2F0E827298259F400678848 /* ViewControllers */,
 				A2F0E8132982528900678848 /* AppDelegate.swift */,
 				A2F0E8152982528900678848 /* SceneDelegate.swift */,
-				A2F0E8172982528900678848 /* ViewController.swift */,
-				A2F0E8192982528900678848 /* Main.storyboard */,
 				A2F0E81C2982528A00678848 /* Assets.xcassets */,
 				A2F0E81E2982528A00678848 /* LaunchScreen.storyboard */,
 				A2F0E8212982528A00678848 /* Info.plist */,
+				A288F4DA298286B3008E7062 /* Extention */,
 			);
 			path = MatchingApp;
+			sourceTree = "<group>";
+		};
+		A2F0E827298259F400678848 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A2F0E8172982528900678848 /* HomeController.swift */,
+				A28162D42987C76700A4F3CF /* RegisterViewController.swift */,
+				A2D5B27C2988EC84000611BE /* LoginViewController.swift */,
+				A2348DC3298CE009000E06CB /* ProfileViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A2F0E82829825A2A00678848 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2348DC5298CE22D000E06CB /* Profile */,
+				A28162D72987CFF000A4F3CF /* Register */,
+				A28162D62987CFE100A4F3CF /* Home */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +241,18 @@
 			dependencies = (
 			);
 			name = MatchingApp;
+			packageProductDependencies = (
+				A288F4D429827E48008E7062 /* RxCocoa */,
+				A288F4D629827E48008E7062 /* RxRelay */,
+				A288F4D829827E48008E7062 /* RxSwift */,
+				A28162DF2988157600A4F3CF /* FirebaseAnalytics */,
+				A28162E12988157600A4F3CF /* FirebaseAuth */,
+				A28162E32988157600A4F3CF /* FirebaseFirestore */,
+				A28162E52988157600A4F3CF /* FirebaseRemoteConfigSwift */,
+				A28162E72988157600A4F3CF /* FirebaseStorage */,
+				A2348DBE2988FF06000E06CB /* PKHUD */,
+				A2348DD02990E954000E06CB /* SDWebImage */,
+			);
 			productName = MatchingApp;
 			productReference = A2F0E8102982528900678848 /* MatchingApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +281,12 @@
 				Base,
 			);
 			mainGroup = A2F0E8072982528900678848;
+			packageReferences = (
+				A288F4D329827E48008E7062 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				A28162DE2988157600A4F3CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				A2348DBD2988FF06000E06CB /* XCRemoteSwiftPackageReference "PKHUD" */,
+				A2348DCF2990E954000E06CB /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = A2F0E8112982528900678848 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +301,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A28162D02987C27D00A4F3CF /* GoogleService-Info.plist in Resources */,
 				A2F0E8202982528A00678848 /* LaunchScreen.storyboard in Resources */,
 				A2F0E81D2982528A00678848 /* Assets.xcassets in Resources */,
-				A2F0E81B2982528900678848 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +314,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2F0E8182982528900678848 /* ViewController.swift in Sources */,
+				A2348DCE2990C481000E06CB /* InfoCollectionViewCell.swift in Sources */,
+				A28162DD29880D3A00A4F3CF /* RegisterButton.swift in Sources */,
+				A288F4DC298286D3008E7062 /* UIView-Extention.swift in Sources */,
+				A2F0E8182982528900678848 /* HomeController.swift in Sources */,
+				A28162DB298809B400A4F3CF /* RegisterTitleLabel.swift in Sources */,
+				A2D5B27D2988EC84000611BE /* LoginViewController.swift in Sources */,
+				A2F0E82A29825A3E00678848 /* BottomControllerView.swift in Sources */,
+				A28162CB2987AD0000A4F3CF /* UIButton-Extention.swift in Sources */,
+				A288F4D2298276FA008E7062 /* TopControllerView.swift in Sources */,
+				A2348DC229890FB4000E06CB /* User.swift in Sources */,
+				A28162C92987A9B300A4F3CF /* CardinfoLabel.swift in Sources */,
+				A28162C729879E4100A4F3CF /* UIColor-Extention.swift in Sources */,
+				A2348DCB298D11A1000E06CB /* ProfileTextField.swift in Sources */,
+				A28E34842988BAC70050BA1A /* RegisterViewModel.swift in Sources */,
+				A288F4D0298268DB008E7062 /* UIimage-Extention.swift in Sources */,
 				A2F0E8142982528900678848 /* AppDelegate.swift in Sources */,
+				A28162C52987721800A4F3CF /* CardView.swift in Sources */,
+				A2D5B27B2988E498000611BE /* Firebase-Extention.swift in Sources */,
+				A2348DC7298CE24C000E06CB /* ProfileImageView.swift in Sources */,
+				A2348DC9298CE317000E06CB /* ProfileLabel.swift in Sources */,
+				A28162D92987D00200A4F3CF /* RegisterTextField.swift in Sources */,
+				A28162D52987C76700A4F3CF /* RegisterViewController.swift in Sources */,
+				A2348DC4298CE009000E06CB /* ProfileViewController.swift in Sources */,
+				A28162CE2987ADAE00A4F3CF /* CardImageView.swift in Sources */,
 				A2F0E8162982528900678848 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +345,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A2F0E8192982528900678848 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2F0E81A2982528900678848 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A2F0E81E2982528A00678848 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +482,7 @@
 				INFOPLIST_FILE = MatchingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +510,7 @@
 				INFOPLIST_FILE = MatchingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +548,94 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A2348DBD2988FF06000E06CB /* XCRemoteSwiftPackageReference "PKHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pkluz/PKHUD.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A2348DCF2990E954000E06CB /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		A28162DE2988157600A4F3CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A288F4D329827E48008E7062 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A2348DBE2988FF06000E06CB /* PKHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2348DBD2988FF06000E06CB /* XCRemoteSwiftPackageReference "PKHUD" */;
+			productName = PKHUD;
+		};
+		A2348DD02990E954000E06CB /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2348DCF2990E954000E06CB /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		A28162DF2988157600A4F3CF /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A28162DE2988157600A4F3CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		A28162E12988157600A4F3CF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A28162DE2988157600A4F3CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A28162E32988157600A4F3CF /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A28162DE2988157600A4F3CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		A28162E52988157600A4F3CF /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A28162DE2988157600A4F3CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+		A28162E72988157600A4F3CF /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A28162DE2988157600A4F3CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		A288F4D429827E48008E7062 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A288F4D329827E48008E7062 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		A288F4D629827E48008E7062 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A288F4D329827E48008E7062 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		A288F4D829827E48008E7062 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A288F4D329827E48008E7062 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A2F0E8082982528900678848 /* Project object */;
 }
